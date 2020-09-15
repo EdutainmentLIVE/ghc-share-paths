@@ -1,0 +1,11 @@
+cabal-version: 1.12
+name:           ghc-share-paths
+version:        1
+build-type:     Simple
+
+library
+  exposed-modules:
+      Paths_ghc_share_paths
+  build-depends:
+      base
+  Default-language:  Haskell2010
